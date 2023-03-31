@@ -42,3 +42,15 @@ name = input("Ingresa tu nombre: ")
 age = input("Ingresa tu edad: ")
 
 print("Hola", name, "tu edad es:", age)
+
+#Cambiamos su tipo de dato
+name = 35
+age = "Canelo"
+print("Hola", name, "tu edad es:", age) # Imprime: Hola 35 tu edad es: Canelo
+
+#Python no tiene un tipado fuerte, por lo que podemos cambiar el tipo de dato de una variable en cualquier momento.
+
+# forzamos el tipo?
+name: str = "Gerardo"
+age: int = 28
+print(type(name), type(age)) #R:// No.
