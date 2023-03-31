@@ -1,51 +1,42 @@
-#Las variables son las funciones importantes que ya vienen en Python, y que nos permiten almacenar datos en memoria para poder utilizarlos posteriormente.
-#Ejemplos: type(), print(), input(), etc.
+# Las variables son utilizadas para almacenar datos en memoria que pueden ser utilizados posteriormente.
+# Ejemplos: type(), print(), input(), etc.
 
-#La nomeclatura de las variables es importante, ya que nos permite identificarlas facilmente, y saber que tipo de dato contiene.
+# La nomenclatura de las variables es importante, ya que nos permite identificarlas fácilmente y saber qué tipo de dato contienen.
 
-#Variables
-#nomencatura camelCase: nombreVariable
-myVariable = "Mi variable de tipo Str"
-#nomencatura PascalCase: NombreVariable
-MyVariable = "Mi variable de tipo Str con nomencatura PascalCase en su definicion"
+# Variables
+# Nomenclatura camel_case: nombre_variable
+my_variable = "Mi variable de tipo Str"
+# Nomenclatura PascalCase: NombreVariable
+MyVariable = "Mi variable de tipo Str con nomenclatura PascalCase en su definición"
 
-#Utilizaremos esta Nomencatura para las variables#
-#nomencatura snake_case: nombre_variable
+# Utilizaremos esta Nomenclatura para las variables
+# Nomenclatura snake_case: nombre_variable
 
-#definicion de variables
-my_string = "Mi variable de tipo Str con nomencatura snake_case en su definicion"
-
+# Definición de variables
+my_string = "Mi variable de tipo Str con nomenclatura snake_case en su definición"
 my_int_variable = 1
-
 my_bool_variable = True
-
 my_int_to_str_variable = str(my_int_variable)
 
-#Imprimir variables
+# Imprimir variables
 print(MyVariable)
 print(my_int_variable)
 print(my_bool_variable)
 print(type(my_int_to_str_variable))
 
-#concatenacion de variables en print
+# Concatenación de variables en print
 print(my_string, my_int_to_str_variable, my_bool_variable)
-
 print("Este es el valor de:", my_bool_variable)
 
-#print(type(print(my_string, my_int_to_str_variable, my_bool_variable)))
-#<class 'NoneType'>
-
 # Algunas funciones del sistema
+print(len(my_string))
 
-print (len(my_string))
-
-# Variables en una sola linea
+# Variables en una sola línea
 name, sur_name, alias, age = "Gerardo", "Rauda", "YxC", 28
-
 print(name, sur_name, alias, age)
 
-#Este tipo de definiciones de variables es muy util cuando se trabaja con bases de datos, y se requiere asignar los valores de las columnas a variables.
-#Pero tambien ocasiona que el codigo sea mas dificil de leer y dar mantenimiento, por lo que se recomienda utilizarlo solo cuando sea necesario.
+# Este tipo de definiciones de variables es útil cuando se trabaja con bases de datos y se requiere asignar los valores de las columnas a variables.
+# Pero también puede hacer que el código sea más difícil de leer y mantener, por lo que se recomienda utilizarlo solo cuando sea necesario.
 
 name = input("Ingresa tu nombre: ")
 age = input("Ingresa tu edad: ")
