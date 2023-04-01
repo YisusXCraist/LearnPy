@@ -64,3 +64,4 @@ print(type(my_pop)) #pop returns the element that was removed
 
 del my_list[2] #del removes an element in a specific position
 print(my_list)
+print(my_list[2])
