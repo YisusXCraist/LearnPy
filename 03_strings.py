@@ -17,7 +17,7 @@ print(my_new_tab_string)
 my_new_scaped_string = "\\tEste es un String \\nescapado"
 print(my_new_scaped_string) 
 
-# formateo de strings
+### formateo de strings ###
 
 name, surname, edad = "Gerardo", "Rauda", 28
 

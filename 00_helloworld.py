@@ -20,5 +20,5 @@ print(type(1.0)) # <class 'float'>
 print(type(1+2j)) # <class 'complex'>
 
 #!!! NOTAS IMPORTANTES !!!
-#>>>Type se utiliza para saber el tipo de dato, y asegurarnos que estamos trabajando con el tipo de dato correcto
+#>>>Type se utiliza para saber el tipo de dato, y asegurarnos que estamos trabajando con el tipo de dato correcto para la operacion que queremos realizar
 
