@@ -65,3 +65,22 @@ print(type(my_pop)) #pop returns the element that was removed
 del my_list[2] #del removes an element in a specific position
 print(my_list)
 print(my_list[2])
+
+my_new_list = my_list.copy() #copy copies the list
+
+print(my_list)
+print(type(my_list))
+my_list.clear() #clear removes all the elements of the list
+#clear() is different from del, del removes the list from memory, clear() removes the elements of the list
+print(my_list)
+print(my_new_list)
+
+my_new_list.reverse() #reverse reverses the list
+print(my_new_list) #reverse reverses the list
+
+my_new_list.sort() #sort sorts the list
+print(my_new_list) #sort sorts the list
+
+print(my_new_list[1:3]) #slicing, slicing returns a new list with the elements specified
+print(my_new_list[1:]) #slicing, slicing returns a new list with the elements specified
+print(my_new_list[:3]) #slicing, slicing returns a new list with the elements specified
