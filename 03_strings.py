@@ -19,7 +19,7 @@ print(my_new_scaped_string)
 
 ### formateo de strings ###
 
-name, surname, edad = "Gerardo", "Rauda", 28
+name, surname, edad = "Yisus", "xCraist", 28
 
 print("Hola me llamo %s %s y tengo %d años" % (name, surname, edad)) #%s string, %d int, %f float
 print("Hola me llamo {} {} y tengo {} años".format(name, surname, edad)) # python 3.6

@@ -32,7 +32,7 @@ print("Este es el valor de:", my_bool_variable)
 print(len(my_string))
 
 # Variables en una sola línea
-name, sur_name, alias, age = "Gerardo", "Rauda", "YxC", 28
+name, sur_name, alias, age = "Yisus", "xCraist", "YxC", 28
 print(name, sur_name, alias, age)
 
 # Este tipo de definiciones de variables es útil cuando se trabaja con bases de datos y se requiere asignar los valores de las columnas a variables.
@@ -51,6 +51,6 @@ print("Hola", name, "tu edad es:", age) # Imprime: Hola 35 tu edad es: Canelo
 #Python no tiene un tipado fuerte, por lo que podemos cambiar el tipo de dato de una variable en cualquier momento.
 
 # forzamos el tipo?
-name: str = "Gerardo"
+name: str = "Yisus"
 age: int = 28
 print(type(name), type(age)) #R:// No.

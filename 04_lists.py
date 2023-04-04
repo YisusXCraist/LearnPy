@@ -17,7 +17,7 @@ my_list = [35, 22, 14, 65, 58, 47, 77, 82, 20]
 print(my_list)
 print(len(my_list))
 
-my_other_list = [28, 1.65, "Gerardo","Rauda"]
+my_other_list = [28, 1.65, "Yisus","xCraist"]
 
 print(type(my_other_list))
 print(my_other_list)
