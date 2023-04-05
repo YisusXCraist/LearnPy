@@ -33,3 +33,8 @@ def print_date(date):
     print(date.microsecond)
 
 print_date(year_2023) # 2023 4 4 0 0 0 0
+
+from datetime import time
+
+current_time = time(now.hour, now.minute, now.second, now.microsecond) 
+print(current_time) # 15:10:00
