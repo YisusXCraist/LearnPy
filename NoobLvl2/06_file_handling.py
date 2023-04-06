@@ -50,10 +50,18 @@ print(type(json_dict)) # print the type of the dictionary
 
 import csv
 
-csv_file = open('NoobLvl2\my_file.csv', "w+") # w+ means write and read
+csv_file = open('NoobLvl2\my_file.csv', "w+", newline='') # w+ means write and read
 
-csv_writer = csv.writer(csv_file, delimiter = ",") # create a csv writer, and set the delimiter to a comma
+csv_writer = csv.writer(csv_file) # create a csv writer
 
+csv_writer.writerow(["Nombre", "Apellido", "Edad"]) # write a row in the csv file
+csv_writer.writerow(["John", "Doe", 30]) # write a row in the csv file
+
+csv_file.close() # close the file
+
+with open('NoobLvl2\my_file.csv') as my_other_file: # a means append
+    for line in my_other_file.readlines():
+        print(line) # print the csv file
 
 
 # .xlsx file
