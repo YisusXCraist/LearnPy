@@ -37,3 +37,30 @@ def sum_ten():
 
 add_closure = sum_ten()
 print(add_closure(5))
+
+### Built-in Higher Order Functions ###
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# map() function
+# map() function returns an iterator that applies the given function to each item of the given iterable.
+
+def multiply_by_two(number):
+    return number * 2
+
+print(list(map(multiply_by_two, numbers))) # normal function
+print(list(map(lambda number: number * 2, numbers))) # lambda function
+
+# filter() function
+# filter() function returns an iterator that contains only the elements that satisfy the given condition.
+
+def filter_greater_than_five(number):
+    if number > 5:
+        return True
+    return False
+
+print(list(filter(filter_greater_than_five, numbers))) # normal function
+print(list(filter(lambda number: number > 5, numbers))) # lambda function
+
+# reduce() function
+# reduce() function returns a single value after applying the given function to the items of the given iterable.
