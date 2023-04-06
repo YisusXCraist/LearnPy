@@ -33,3 +33,35 @@ json_test = {
 }
 
 json.dump(json_test, json_file, indent = 2) # dump the json_test data into the json_file
+
+json_file.close() # close the file
+
+# read the json file
+with open('NoobLvl2\my_file.json') as my_other_file: # a means append
+    for line in my_other_file.readlines():
+        print(line) # print the json file
+
+json_dict = json.load(open('NoobLvl2\my_file.json')) # load the json file into a dictionary
+print(json_dict) # print the dictionary
+print(type(json_dict)) # print the type of the dictionary
+
+# .csv file
+# csv file is a file that contains data in a csv format
+
+import csv
+
+csv_file = open('NoobLvl2\my_file.csv', "w+") # w+ means write and read
+
+csv_writer = csv.writer(csv_file, delimiter = ",") # create a csv writer, and set the delimiter to a comma
+
+
+
+# .xlsx file
+# xlsx file is a file that contains data in a xlsx format
+
+# import xlrd #The module needs to be installed
+
+# .xml file
+# xml file is a file that contains data in a xml format
+
+import xml 
